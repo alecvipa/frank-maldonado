@@ -84,7 +84,7 @@
     </script>
 </head>
 
-<body>
+<body onscroll="navB()">
     <!-- Dropdown Structure -->
     <ul id="dropdown1" class="dropdown-content">
         <li><a href="#!" class="black-text">Libros</a></li>
@@ -94,20 +94,20 @@
         <li><a href="#!" class="black-text">Regalos</a></li>
         <li class="divider"></li>
     </ul>
-    <nav class="white navDiv fonts" role="navigation">
+    <nav class="navBars navDiv fonts " role="navigation">
         <div class="nav-wrapper container">
             {{!-- <a id="logo-container" href="/" class="brand-logo"><img src="/assets/images/logo1.png" alt="logoIdm"
                     class="imageLogo"></a> --}}
             <ul class="right hide-on-med-and-down navUl">
                 <li><a href="/" class="navItems">Inicio</a></li>
                 <li><a href="/mihistoria" class="navItems">Mi historia</a></li>
-                <li><a href="/tienda" class="navItems">Tienda</a></li>
-                <li><a href="/club" class="navItems">Club</a></li>
+                <li><a href="/tienda" class="navItems">Obras de arte</a></li>
+                {{!-- <li><a href="/club" class="navItems">Club</a></li> --}}
                 <li><a href="/contacto" class="navItems">Contacto</a></li>
                 <li><a href="/privacidad" class="navItems">Aviso de privacidad</a></li>
                 <li><a href="https://web.facebook.com/alejandrovilpa?_rdc=1&_rdr" class="navItems" target="_blank"><i
                             class="fab fa-facebook"></i></a></li>
-                <li><a href="https://www.instagram.com/alejandrovilpa/?hl=es" class="navItems" target="_blank"><i
+                <li><a href="https://www.instagram.com/frankmaldonado/?igshid=MWI4MTIyMDE%3D" class="navItems" target="_blank"><i
                             class="fab fa-instagram"></i></a></li>
                 {{!-- <li><a href="/privacidad" class="navItems"><i class="fab fa-whatsapp-square"></i></a></li> --}}
             </ul>
@@ -118,13 +118,13 @@
                 </li>
                 <li><a href="/" class="navItems">Inicio</a></li>
                 <li><a href="/mihistoria" class="navItems">Mi historia</a></li>
-                <li><a href="/tienda" class="navItems">Tienda</a></li>
-                <li><a href="/club" class="navItems">Club</a></li>
+                <li><a href="/tienda" class="navItems">Obras de arte</a></li>
+                {{!-- <li><a href="/club" class="navItems">Club</a></li> --}}
                 <li><a href="/contacto" class="navItems">Contacto</a></li>
                 <li><a href="/privacidad" class="navItems">Aviso de privacidad</a></li>
                 <li><a href="https://web.facebook.com/alejandrovilpa?_rdc=1&_rdr" class="navItems" target="_blank"><i
                             class="fab fa-facebook"></i></a></li>
-                <li><a href="https://www.instagram.com/alejandrovilpa/?hl=es" class="navItems" target="_blank"><i
+                <li><a href="https://www.instagram.com/frankmaldonado/?igshid=MWI4MTIyMDE%3D" class="navItems" target="_blank"><i
                             class="fab fa-instagram"></i></a></li>
                 {{!-- <li><a href="/privacidad" class="navItems"><i class="fab fa-whatsapp-square"></i></a></li> --}}
             </ul>
@@ -166,6 +166,7 @@
 
     <!-- Core Javascript -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="/assets/js/script.js"></script>
     <script src="/assets/js/imagesloaded.pkgd.min.js"></script>
     <script src="/assets/js/masonry.pkgd.min.js"></script>
     <script src="/assets/js/materialize.min.js"></script>

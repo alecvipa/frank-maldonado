@@ -108,7 +108,10 @@ p {
    height: 7rem;
 }
 .navDiv{
-   height: 8rem;
+   height: 5rem;
+   position: fixed;
+   top: 0;
+   width: 100%;
 }
 .sidenav-overlay{
     display: none !important;
@@ -122,6 +125,9 @@ p {
 @media only screen and (min-width : 992px) {
     .navUl{
         padding-top: 3%;
+    }
+    .navUl{
+        margin-top: -2%;
     }
 }
 @media only screen and (max-width : 992px) {
@@ -146,7 +152,7 @@ p {
     }
     
     .imageInicio{
-        height: 41rem;
+        height: 49rem;
         background-image: url("/assets/images/bannerStory.jpg");
     }
     
@@ -172,6 +178,10 @@ p {
     }
     .avisoPrivacidadTitle{
       font-size: 1.5rem !important;
+    }
+    .navDiv{
+        height: 4rem;
+        
     }
 }
   
